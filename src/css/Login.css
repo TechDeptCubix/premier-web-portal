@@ -1,0 +1,76 @@
+.Login-main-section {
+  position: relative;
+}
+
+.Login-main-section-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.Login-main-section-content h2 {
+  font-size: 26px;
+  color: #ffffff;
+  width: 30vw;
+  margin: 20px auto;
+}
+
+.Login-form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 18vw;
+  margin: 50px auto;
+  padding-top: 30px;
+  border: 3px solid black;
+}
+
+.Login-form .Login-submit {
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  margin: 30px auto 40px;
+  padding: 5px 0px;
+  width: 12vw;
+}
+
+.Login-form input[type="text"],
+.Login-form input[type="password"] {
+  margin: 20px auto 0;
+  width: 12vw;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.Login-pqp-items-carousel li {
+  display: inline-block;
+}
+.Login-pqp-items-carousel img {
+  width: 150px;
+}
+
+.Login-brand-list-container {
+  background-color: #ffffff;
+}
+
+.Login-brand-list-container li {
+  display: inline-block;
+}
+
+.Login-brand-list-container img {
+  width: 100px;
+}
+
+.Login-bottom-strip {
+  background-color: #c4c4c434;
+  text-align: center;
+}
+
+.Login-bottom-strip span {
+  font-size: 12px;
+  margin-right: 15px;
+}
+.Login-bottom-strip img {
+  height: 14px;
+}
