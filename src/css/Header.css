@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.Header-logo-container {
+  height: 110px;
+  display: flex;
+}
+
+.Header-logo {
+  margin: 25px 0px 15px 25px;
+}
+
+.Header-balance-statistics-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.Header-credit-balance-container {
+  margin: 25px 60px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+}
+
+.Header-credit-balance-container div {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
+.Header-statistics-container {
+  padding: 45px 10px;
+}
+
+.Header-statistics-container p {
+  font-size: 16px;
+  color: #b3b1b1;
+  font-family: "Roboto Slab", serif;
+}
+
+.Header-statistics-container span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-right: 24px;
+  margin-left: 4px;
+  font-family: "Roboto Slab", serif;
+}
+.Header-balance-label {
+  width: 120px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+}
+.Header-nav ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+.Header-nav {
+  background-color: #c4c4c4;
+}
+.Header-nav ul {
+  margin: 0px;
+}
