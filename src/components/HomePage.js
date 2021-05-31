@@ -17,33 +17,35 @@ function Homepage() {
             <h4>Previous Requests</h4>
             <table className="HomePage-table">
               <thead>
-                <th>Enquiry Number</th>
-                <th>Status</th>
-                <th>Reference</th>
-                <th>View</th>
-                <th>Edit</th>
+                <tr>
+                  <th>Enquiry Number</th>
+                  <th>Status</th>
+                  <th>Reference</th>
+                  <th>View</th>
+                  <th>Edit</th>
+                </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>e1</td>
-                  <td>S1</td>
-                  <td>R1</td>
-                  <td>V1</td>
-                  <td>E1</td>
+                  <td>1001</td>
+                  <td>Verification Completed</td>
+                  <td></td>
+                  <td>View</td>
+                  <td>Edit</td>
                 </tr>
                 <tr>
-                  <td>e1</td>
-                  <td>S1</td>
-                  <td>R1</td>
-                  <td>V1</td>
-                  <td>E1</td>
+                  <td>1002</td>
+                  <td>Order Created</td>
+                  <td>124867</td>
+                  <td>View</td>
+                  <td></td>
                 </tr>
                 <tr>
-                  <td>e1</td>
-                  <td>S1</td>
-                  <td>R1</td>
-                  <td>V1</td>
-                  <td>E1</td>
+                  <td>1003</td>
+                  <td>Verification Completed</td>
+                  <td></td>
+                  <td>View</td>
+                  <td>Edit</td>
                 </tr>
               </tbody>
             </table>
