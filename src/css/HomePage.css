@@ -24,6 +24,7 @@
 .HomePage-table {
   width: 100%;
   text-align: left;
+  border-spacing: 0px !important;
 }
 .HomePage-table thead {
   background-color: #c23c3c;
@@ -36,7 +37,11 @@
   padding: 5px 15px;
 }
 .HomePage-table tbody td {
-  padding: 10px 15px;
+  padding: 20px 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #000000;
+  border-bottom: 1px solid #000000;
 }
 .HomePage-important-notifications-container {
   min-height: 200px;
