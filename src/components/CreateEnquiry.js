@@ -6,8 +6,11 @@ import part_1 from "../img/part_1.png";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../css/CreateEnquiry.css";
+<<<<<<< HEAD
 import SupportedItemsPopup from "./SupportedItemsPopup";
 import SuccessPopup from "./SuccessPopup";
+=======
+>>>>>>> 63bc71e210f69114815508954ae9f33cc39e607c
 
 function CreateEnquiry() {
   return (
@@ -90,10 +93,13 @@ function CreateEnquiry() {
         <button className="CreateEnquiry-button">Execute Enquiry</button>
       </div>
 
+<<<<<<< HEAD
       {/* <SupportedItemsPopup /> */}
 
       <SuccessPopup />
 
+=======
+>>>>>>> 63bc71e210f69114815508954ae9f33cc39e607c
       <Footer />
     </div>
   );
