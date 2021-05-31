@@ -6,6 +6,8 @@ import part_1 from "../img/part_1.png";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../css/CreateEnquiry.css";
+import SupportedItemsPopup from "./SupportedItemsPopup";
+import SuccessPopup from "./SuccessPopup";
 
 function CreateEnquiry() {
   return (
@@ -87,6 +89,10 @@ function CreateEnquiry() {
         <span>Or </span>
         <button className="CreateEnquiry-button">Execute Enquiry</button>
       </div>
+
+      {/* <SupportedItemsPopup /> */}
+
+      <SuccessPopup />
 
       <Footer />
     </div>
