@@ -6,10 +6,11 @@ import Login from "./components/Login";
 import HomePage from "./components/HomePage";
 import CreateEnquiry from "./components/CreateEnquiry";
 import ListOfEnquiry from "./components/ListOfEnquiry";
+import ListOfOrder from "./components/ListOfOrder";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ListOfEnquiry />
+    <ListOfOrder />
   </React.StrictMode>,
   document.getElementById("root")
 );

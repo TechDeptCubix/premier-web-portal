@@ -1,40 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-.ListOfEnquiry-main-container {
+.ListOfOrder-main-container {
   border: 1px black solid;
   margin: 40px 40px 0px 40px;
   position: relative;
   min-height: 450px;
 }
 
-.ListOfEnquiry-table-container {
+.ListOfOrder-table-container {
   border: 1px black solid;
   margin: 40px 40px 40px 40px;
 }
 
-.ListOfEnquiry-main-container h4 {
+.ListOfOrder-main-container h4 {
   margin-left: 20px;
   font-family: "Roboto Slab", serif;
 }
 
-.ListOfEnquiry-divider {
+.ListOfOrder-divider {
   border-top: 1px solid #000000;
 }
 
-.ListOfEnquiry-inner-container {
+.ListOfOrder-inner-container {
   margin: 0px 40px 20px 40px;
   display: flex;
   flex-direction: column;
 }
 
-.ListOfEnquiry-inner-container input[type="checkbox"] {
+.ListOfOrder-inner-container input[type="checkbox"] {
   display: block;
   height: 25px;
   width: 25px;
   outline: 1px #000000 solid;
 }
 
-.ListOfEnquiry-search-button {
+.ListOfOrder-search-button {
   width: 15%;
   font-size: 16px;
   color: #ffffff;
@@ -46,12 +46,12 @@
   margin-left: 85px;
 }
 
-.ListOfEnquiry-table {
+.ListOfOrder-table {
   width: 100%;
   text-align: left;
   border-spacing: 0px !important;
 }
-.ListOfEnquiry-table thead {
+.ListOfOrder-table thead {
   background-color: #e5e5e5;
   color: #000000;
   font-family: "Roboto Slab", serif;
@@ -59,10 +59,10 @@
   vertical-align: text-top;
 }
 
-.ListOfEnquiry-table thead th {
+.ListOfOrder-table thead th {
   padding: 15px 15px;
 }
-.ListOfEnquiry-table tbody td {
+.ListOfOrder-table tbody td {
   padding: 20px 15px;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
@@ -70,68 +70,68 @@
   border-bottom: 1px solid #000000;
 }
 
-.ListOfEnquiry-my-order-container {
+.ListOfOrder-my-order-container {
   display: flex;
   margin: 20px 40px 10px 80px;
 }
 
-.ListOfEnquiry-my-order-container label {
+.ListOfOrder-my-order-container label {
   margin: 5px 0px 0px 10px;
   font-family: "Roboto Slab", serif;
 }
 
-.ListOfEnquiry-radio-container {
+.ListOfOrder-radio-container {
   margin: 15px 0px 5px 40px;
 }
 
-.ListOfEnquiry-radio-container label {
+.ListOfOrder-radio-container label {
   margin-left: 10px;
   font-family: "Roboto Slab", serif;
   width: 270px;
   display: inline-block;
 }
 
-.ListOfEnquiry-radio-container input[type="radio"] {
+.ListOfOrder-radio-container input[type="radio"] {
   width: 20px;
   height: 20px;
 }
 
-.ListOfEnquiry-radio-container input[type="radio"],
-.ListOfEnquiry-radio-container label,
-.ListOfEnquiry-radio-container label {
+.ListOfOrder-radio-container input[type="radio"],
+.ListOfOrder-radio-container label,
+.ListOfOrder-radio-container label {
   vertical-align: middle;
   cursor: pointer;
 }
 
-.ListOfEnquiry-radio-container input[type="text"] {
+.ListOfOrder-radio-container input[type="text"] {
   background-color: #ededed;
   padding: 4px;
   border: 1px solid #0060af79;
   font-size: 16px;
 }
 
-.ListOfEnquiry-dateInput {
+.ListOfOrder-dateInput {
   width: 80px;
   margin-left: 10px;
 }
 
-.ListOfEnquiry-dateInput-label {
+.ListOfOrder-dateInput-label {
   font-family: "Roboto Slab", serif;
 }
 
-.ListOfEnquiry-dateInput-img {
+.ListOfOrder-dateInput-img {
   margin-right: 50px;
   margin-left: 10px;
   cursor: pointer;
   vertical-align: middle;
 }
 
-.ListOfEnquiry-select-container {
+.ListOfOrder-select-container {
   margin: 20px 0px 20px 350px;
   font-family: "Roboto Slab", serif;
 }
 
-.ListOfEnquiry-select-container select {
+.ListOfOrder-select-container select {
   margin-left: 20px;
   border: 1px solid #0060af79;
   padding: 4px;
