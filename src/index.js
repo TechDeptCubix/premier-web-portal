@@ -5,10 +5,11 @@ import reportWebVitals from "./reportWebVitals";
 import Login from "./components/Login";
 import HomePage from "./components/HomePage";
 import CreateEnquiry from "./components/CreateEnquiry";
+import ListOfEnquiry from "./components/ListOfEnquiry";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CreateEnquiry />
+    <ListOfEnquiry />
   </React.StrictMode>,
   document.getElementById("root")
 );

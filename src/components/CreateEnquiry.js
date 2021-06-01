@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import "../css/CreateEnquiry.css";
 import SupportedItemsPopup from "./SupportedItemsPopup";
 import SuccessPopup from "./SuccessPopup";
+import BackgroundImage from "./BackgroundImage";
 
 function CreateEnquiry() {
   return (
@@ -79,9 +80,7 @@ function CreateEnquiry() {
           </tbody>
         </table>
 
-        <img src={part_1} className="CreateEnquiry-main-container-bg-image" />
-        <div className="CreateEnquiry-bg-image-gradient-overlay"></div>
-        <div className="CreateEnquiry-bg-image-gradient-overlay-two"></div>
+        <BackgroundImage />
       </div>
 
       <div className="CreateEnquiry-enquiry-button-container">
