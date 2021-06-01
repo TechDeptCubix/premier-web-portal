@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.ListOfReturn-main-container {
+  border: 1px black solid;
+  margin: 40px 40px 0px 40px;
+  position: relative;
+  min-height: 450px;
+}
+
+.ListOfReturn-table-container {
+  border: 1px black solid;
+  margin: 40px 40px 40px 40px;
+}
+
+.ListOfReturn-main-container h4 {
+  margin-left: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+.ListOfReturn-divider {
+  border-top: 1px solid #000000;
+}
+
+.ListOfReturn-inner-container {
+  margin: 0px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ListOfReturn-inner-container input[type="checkbox"] {
+  display: block;
+  height: 25px;
+  width: 25px;
+  outline: 1px #000000 solid;
+}
+
+.ListOfReturn-search-button {
+  width: 15%;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  background-color: #bd1c1c;
+  padding: 5px 0px;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+  margin-left: 85px;
+}
+
+.ListOfReturn-table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0px !important;
+}
+.ListOfReturn-table thead {
+  background-color: #e5e5e5;
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  vertical-align: text-top;
+}
+
+.ListOfReturn-table thead th {
+  padding: 15px 15px;
+}
+.ListOfReturn-table tbody td {
+  padding: 20px 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.ListOfReturn-my-order-container {
+  display: flex;
+  margin: 20px 40px 10px 80px;
+}
+
+.ListOfReturn-my-order-container label {
+  margin: 5px 0px 0px 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.ListOfReturn-radio-container {
+  margin: 15px 0px 5px 40px;
+}
+
+.ListOfReturn-radio-container label {
+  margin-left: 10px;
+  font-family: "Roboto Slab", serif;
+  width: 270px;
+  display: inline-block;
+}
+
+.ListOfReturn-radio-container input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.ListOfReturn-radio-container input[type="radio"],
+.ListOfReturn-radio-container label,
+.ListOfReturn-radio-container label {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.ListOfReturn-radio-container input[type="text"] {
+  background-color: #ededed;
+  padding: 4px;
+  border: 1px solid #0060af79;
+  font-size: 16px;
+}
+
+.ListOfReturn-dateInput {
+  width: 80px;
+  margin-left: 10px;
+}
+
+.ListOfReturn-dateInput-label {
+  font-family: "Roboto Slab", serif;
+}
+
+.ListOfReturn-dateInput-img {
+  margin-right: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.ListOfReturn-select-container {
+  margin: 20px 0px 20px 350px;
+  font-family: "Roboto Slab", serif;
+}
+
+.ListOfReturn-select-container select {
+  margin-left: 20px;
+  border: 1px solid #0060af79;
+  padding: 4px;
+  font-family: "Roboto Slab", serif;
+}

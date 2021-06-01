@@ -1,24 +1,24 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import "../css/ListOfEnquiry.css";
+import "../css/ListOfReturn.css";
 import BackgroundImage from "./BackgroundImage";
 import ic_calendar from "../img/ic_calendar.png";
 
-function ListOfEnquiry() {
+function ListOfReturn() {
   return (
     <div>
       <Header />
 
-      <div className="ListOfEnquiry-main-container">
-        <h4>List Of Enquiry</h4>
+      <div className="ListOfReturn-main-container">
+        <h4>List Of Return</h4>
 
-        <hr className="ListOfEnquiry-divider" />
+        <hr className="ListOfReturn-divider" />
 
-        <div className="ListOfEnquiry-inner-container">
+        <div className="ListOfReturn-inner-container">
           <h4>Search Options</h4>
 
-          <div className="ListOfEnquiry-radio-container">
+          <div className="ListOfReturn-radio-container">
             <input
               type="radio"
               name="search-option-method"
@@ -28,7 +28,7 @@ function ListOfEnquiry() {
             <label for="reference-radio-btn">Search By Your Reference</label>
             <input name="reference-input" type="text" />
           </div>
-          <div className="ListOfEnquiry-radio-container">
+          <div className="ListOfReturn-radio-container">
             <input
               type="radio"
               name="search-option-method"
@@ -38,7 +38,7 @@ function ListOfEnquiry() {
             <label for="order-number-radio-btn">Search By Order Number</label>
             <input name="order-number-input" type="text" />
           </div>
-          <div className="ListOfEnquiry-radio-container">
+          <div className="ListOfReturn-radio-container">
             <input
               type="radio"
               name="search-option-method"
@@ -50,7 +50,7 @@ function ListOfEnquiry() {
             </label>
             <input name="enquiry-number-input" type="text" />
           </div>
-          <div className="ListOfEnquiry-radio-container">
+          <div className="ListOfReturn-radio-container">
             <input
               type="radio"
               name="search-option-method"
@@ -60,22 +60,22 @@ function ListOfEnquiry() {
             <label for="date-range-radio-btn">
               Search By Date Range / Status
             </label>
-            <span className="ListOfEnquiry-dateInput-label">From</span>
+            <span className="ListOfReturn-dateInput-label">From</span>
             <input
               name="date-range-from-input"
               type="text"
-              className="ListOfEnquiry-dateInput"
+              className="ListOfReturn-dateInput"
             />
-            <img src={ic_calendar} className="ListOfEnquiry-dateInput-img" />
-            <span className="ListOfEnquiry-dateInput-label">To</span>
+            <img src={ic_calendar} className="ListOfReturn-dateInput-img" />
+            <span className="ListOfReturn-dateInput-label">To</span>
             <input
               name="date-range-to-input"
               type="text"
-              className="ListOfEnquiry-dateInput"
+              className="ListOfReturn-dateInput"
             />
-            <img src={ic_calendar} className="ListOfEnquiry-dateInput-img" />
+            <img src={ic_calendar} className="ListOfReturn-dateInput-img" />
           </div>
-          <div className="ListOfEnquiry-select-container">
+          <div className="ListOfReturn-select-container">
             <label>Status</label>
             <select name="status-selection">
               <option value="0">Select Status</option>
@@ -85,7 +85,7 @@ function ListOfEnquiry() {
             </select>
           </div>
 
-          <div className="ListOfEnquiry-my-order-container">
+          <div className="ListOfReturn-my-order-container">
             <input
               type="checkbox"
               name="my-orders-only"
@@ -94,18 +94,18 @@ function ListOfEnquiry() {
             <label for="my-orders-only-id">My Orders Only</label>
           </div>
 
-          <button className="ListOfEnquiry-search-button">Search Orders</button>
+          <button className="ListOfReturn-search-button">Search Orders</button>
         </div>
 
         <BackgroundImage />
       </div>
 
-      <div className="ListOfEnquiry-table-container">
-        <table className="ListOfEnquiry-table">
+      <div className="ListOfReturn-table-container">
+        <table className="ListOfReturn-table">
           <thead>
             <tr>
               <th>Ref.No.</th>
-              <th>Enquiry No.</th>
+              <th>Order No.</th>
               <th>Created by</th>
               <th>Created On</th>
               <th>Order Status</th>
@@ -118,9 +118,9 @@ function ListOfEnquiry() {
               <td>{1960}</td>
               <td>{"hameed"}</td>
               <td>{"11 May 2021 13:05: 45"}</td>
-              <td>{"Being processed"}</td>
+              <td>{"Accepted"}</td>
               <td>
-                <a href="">View Enquiry</a>
+                <a href="">View Return Request</a>
               </td>
             </tr>
             <tr>
@@ -128,9 +128,9 @@ function ListOfEnquiry() {
               <td>{667}</td>
               <td>{"Ajaz"}</td>
               <td>{"12 May 2021 13:05: 45"}</td>
-              <td>{"Quote Received"}</td>
+              <td>{"Rejected"}</td>
               <td>
-                <a href="">Place Order</a>
+                <a href="">View Return Request</a>
               </td>
             </tr>
           </tbody>
@@ -141,4 +141,4 @@ function ListOfEnquiry() {
   );
 }
 
-export default ListOfEnquiry;
+export default ListOfReturn;

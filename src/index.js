@@ -7,10 +7,16 @@ import HomePage from "./components/HomePage";
 import CreateEnquiry from "./components/CreateEnquiry";
 import ListOfEnquiry from "./components/ListOfEnquiry";
 import ListOfOrder from "./components/ListOfOrder";
+import ListOfReturn from "./components/ListOfReturn";
+import ViewReturnRequest from "./components/ViewReturnRequest";
+import ViewOrder from "./components/ViewOrder";
+import ViewEnquiry from "./components/ViewEnquiry";
+import ReturnRequest from "./components/ReturnRequest";
+import OrderPlacing from "./components/OrderPlacing";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ListOfOrder />
+    <OrderPlacing />
   </React.StrictMode>,
   document.getElementById("root")
 );
