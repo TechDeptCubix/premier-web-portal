@@ -13,8 +13,6 @@ import BackgroundImage from "./BackgroundImage";
 function CreateEnquiry() {
   return (
     <div>
-      <Header />
-
       <div className="CreateEnquiry-main-container">
         <h4>Create Enquiry</h4>
         <hr className="CreateEnquiry-divider" />
@@ -91,9 +89,7 @@ function CreateEnquiry() {
 
       {/* <SupportedItemsPopup /> */}
 
-      <SuccessPopup />
-
-      <Footer />
+      {/* <SuccessPopup /> */}
     </div>
   );
 }

@@ -11,12 +11,19 @@ import icDownloadToEcel from "../img/ic_download_to_excel.png";
 import icUploadFromExcel from "../img/ic_upload_from_excel.png";
 import icDeleteUnavailable from "../img/ic_delete_unavailable.png";
 import OrderPlacingSupportedItemsPopup from "./OrderPlacingSupportedItemsPopup";
+import ic_info_part_number from "../img/ic_info_part_number.png";
 
 function OrderPlacing() {
+  const infoIconClick = (e) => {
+    e.preventDefault();
+    e.currentTarget.setAttribute(
+      "data-active",
+      e.currentTarget.getAttribute("data-active") != "true"
+    );
+  };
+
   return (
     <div>
-      <Header />
-
       <div className="OrderPlacing-main-container">
         <h4>Order Placing</h4>
 
@@ -85,7 +92,38 @@ function OrderPlacing() {
           <tbody>
             <tr>
               <td>{1}</td>
-              <td>{1632}</td>
+              <td>
+                <div className="OrderPlacing-part-number-container">
+                  <span
+                    className="OrderPlacing-part-number-icon-span"
+                    onClick={infoIconClick}
+                  >
+                    {" "}
+                    {1632744484}{" "}
+                    <img
+                      src={ic_info_part_number}
+                      className="OrderPlacing-part-number-info-icon"
+                    />
+                    <div class="OrderPlacing-part-number-tooltip">
+                      Supported Items Available at best prices Supported Items
+                      Available at best prices Supported Items Available at best
+                      prices Supported Items Available at best prices Supported
+                      Items Available at best prices Supported Items Available
+                      at best prices Supported Items Available at best prices
+                      Supported Items Available at best prices Supported Items
+                      Available at best prices Supported Items Available at best
+                      prices Supported Items Available at best prices Supported
+                      Items Available at best prices Supported Items Available
+                      at best prices Supported Items Available at best prices
+                      Supported Items Available at best prices Supported Items
+                      Available at best prices Supported Items Available at best
+                      prices Supported Items Available at best prices Supported
+                      Items Available at best prices Supported Items Available
+                      at best prices Supported Items Available at best prices
+                    </div>
+                  </span>
+                </div>
+              </td>
               <td>{"HIGH SENSE ABS SENSORS"}</td>
               <td>{"20"}</td>
               <td className="ViewOrder-Qty-Avl-Col">{"5"}</td>
@@ -141,9 +179,7 @@ function OrderPlacing() {
         <button className="OrderPlacing-button">Execute Order</button>
       </div>
 
-      <OrderPlacingSupportedItemsPopup />
-
-      <Footer />
+      {/* <OrderPlacingSupportedItemsPopup /> */}
     </div>
   );
 }

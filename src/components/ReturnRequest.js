@@ -9,8 +9,6 @@ import "../css/ReturnRequest.css";
 function ReturnRequest() {
   return (
     <div>
-      <Header />
-
       <div className="ReturnRequest-main-container">
         <h4>Return Request</h4>
 
@@ -98,8 +96,6 @@ function ReturnRequest() {
         <span>Or </span>
         <button className="ReturnRequest-button">Execute Request</button>
       </div>
-
-      <Footer />
     </div>
   );
 }

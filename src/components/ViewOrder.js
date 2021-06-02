@@ -9,8 +9,6 @@ import icDownloadToExcel from "../img/ic_download_to_excel.png";
 function ViewOrder() {
   return (
     <div>
-      <Header />
-
       <div className="ViewOrder-main-container">
         <h4>View Order</h4>
 
@@ -263,8 +261,6 @@ function ViewOrder() {
 
         <BackgroundImage />
       </div>
-
-      <Footer />
     </div>
   );
 }

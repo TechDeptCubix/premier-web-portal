@@ -10,7 +10,6 @@ import ic_offer_2 from "../img/ic_offer_2.png";
 function Homepage() {
   return (
     <div>
-      <Header />
       <div className="Homepage-main-container">
         <div className="HomePage-left-container">
           <div className="HomePage-left-container-content">
@@ -91,7 +90,6 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -8,8 +8,6 @@ import ic_calendar from "../img/ic_calendar.png";
 function ListOfOrder() {
   return (
     <div>
-      <Header />
-
       <div className="ListOfOrder-main-container">
         <h4>List Of Order</h4>
 
@@ -136,7 +134,6 @@ function ListOfOrder() {
           </tbody>
         </table>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -189,3 +189,38 @@
   cursor: pointer;
   font-family: "Roboto Slab", serif;
 }
+
+.OrderPlacing-part-number-info-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: -10px;
+}
+
+.OrderPlacing-part-number-icon-span {
+  background-color: #c23c3c;
+  position: relative;
+}
+
+.OrderPlacing-part-number-icon-span .OrderPlacing-part-number-tooltip {
+  visibility: hidden;
+  width: 285px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  top: -23px;
+  left: 110%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.OrderPlacing-part-number-icon-span[data-active="true"]
+  .OrderPlacing-part-number-tooltip {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}

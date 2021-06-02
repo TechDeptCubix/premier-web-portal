@@ -2,21 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Login from "./components/Login";
-import HomePage from "./components/HomePage";
-import CreateEnquiry from "./components/CreateEnquiry";
-import ListOfEnquiry from "./components/ListOfEnquiry";
-import ListOfOrder from "./components/ListOfOrder";
-import ListOfReturn from "./components/ListOfReturn";
-import ViewReturnRequest from "./components/ViewReturnRequest";
-import ViewOrder from "./components/ViewOrder";
-import ViewEnquiry from "./components/ViewEnquiry";
-import ReturnRequest from "./components/ReturnRequest";
-import OrderPlacing from "./components/OrderPlacing";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <OrderPlacing />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

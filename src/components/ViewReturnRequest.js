@@ -8,8 +8,6 @@ import ic_calendar from "../img/ic_calendar.png";
 function ViewReturnRequest() {
   return (
     <div>
-      <Header />
-
       <div className="ViewReturnRequest-main-container">
         <h4>View Return Request</h4>
 
@@ -83,7 +81,6 @@ function ViewReturnRequest() {
           </tbody>
         </table>
       </div>
-      <Footer />
     </div>
   );
 }

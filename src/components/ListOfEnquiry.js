@@ -8,8 +8,6 @@ import ic_calendar from "../img/ic_calendar.png";
 function ListOfEnquiry() {
   return (
     <div>
-      <Header />
-
       <div className="ListOfEnquiry-main-container">
         <h4>List Of Enquiry</h4>
 
@@ -136,7 +134,6 @@ function ListOfEnquiry() {
           </tbody>
         </table>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -9,8 +9,6 @@ import icDownloadToExcel from "../img/ic_download_to_excel.png";
 function ViewEnquiry() {
   return (
     <div>
-      <Header />
-
       <div className="ViewEnquiry-main-container">
         <h4>View Enquiry</h4>
 
@@ -80,8 +78,6 @@ function ViewEnquiry() {
         </table>
         <BackgroundImage />
       </div>
-
-      <Footer />
     </div>
   );
 }
