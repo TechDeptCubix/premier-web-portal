@@ -22,6 +22,12 @@ function Homepage() {
                   <th>Reference</th>
                   <th>View</th>
                   <th>Edit</th>
+                  <th>Edit</th>
+                  <th>Edit</th>
+                  <th>Edit</th>
+                  <th>Edit</th>
+                  <th>Edit</th>
+                  <th>Edit</th>
                 </tr>
               </thead>
               <tbody>
@@ -31,6 +37,12 @@ function Homepage() {
                   <td></td>
                   <td>View</td>
                   <td>Edit</td>
+                  <td></td>
+                  <td>View</td>
+                  <td>Edit</td>
+                  <td>ed</td>
+                  <td>wd</td>
+                  <td>w</td>
                 </tr>
                 <tr>
                   <td>1002</td>

@@ -1,6 +1,6 @@
 {
   "name": "premier-web-portal",
-  "homepage": "http://techdeptcubix.github.io/premier-web-portal/",
+  "homepage": "http://techdeptcubix.github.io/premier-web-portal/" ,
   "version": "0.1.0",
   "private": true,
   "dependencies": {

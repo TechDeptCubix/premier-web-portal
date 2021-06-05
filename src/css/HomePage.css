@@ -15,6 +15,7 @@
 }
 .HomePage-left-container-content {
   border: 1px black solid;
+  overflow-x: scroll;
 }
 
 .HomePage-left-container-content h4 {

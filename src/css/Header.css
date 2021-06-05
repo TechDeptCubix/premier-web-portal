@@ -7,6 +7,8 @@
 
 .Header-logo {
   margin: 25px 0px 15px 25px;
+  width: 20%;
+  object-fit: contain;
 }
 
 .Header-balance-statistics-container {
@@ -57,17 +59,88 @@
   margin-left: 20px;
 }
 
-.Header-nav ul li {
+.Header-nav > ul > li {
   display: inline-block;
-  padding: 10px 30px;
   font-family: "Roboto Slab", serif;
   font-size: 16px;
   color: #000000;
+  padding: 10px 0px;
 }
-
+.Header-nav > ul > li:hover {
+  background-color: #ffffff;
+}
 .Header-nav {
   background-color: #c4c4c4;
 }
-.Header-nav ul {
+.Header-nav > ul {
   margin: 0px;
+}
+
+.Header-nav-orderAndtracking-subMenu {
+  background-color: #ffffff;
+  color: #000000;
+  flex-direction: column;
+  position: absolute;
+  top: 151px;
+  z-index: 1;
+  left: 145px;
+  list-style: none;
+  padding: 5px 0px 5px 0px;
+  min-width: 260px;
+  box-shadow: 1px 2px 12px #767676;
+  display: none;
+}
+
+.Header-navLink {
+  background-color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 10px 15px 60px;
+  margin: 10px 0px;
+  color: #000000;
+}
+
+.Header-navLink:hover {
+  color: #bd1c1c;
+  box-shadow: 1px 2px 3px #767676;
+}
+
+.Header-orderAndtracking-navList-item {
+  background-color: #000000;
+}
+
+.Header-dropdown-arrow-icon {
+  width: 10px;
+  margin-left: 5px;
+}
+/* 
+.Header-navLink-main-menu {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+} */
+
+.Header-nav > ul > li > a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.Header-hide-drop-down {
+  display: none;
+}
+
+.Header-show-drop-down {
+  display: block;
+}
+
+.active {
+  background-color: #bd1c1c;
+  color: #ffffff !important;
+}
+
+.Header-nav-logout {
+  padding: 10px 30px !important;
+  color: #000000;
+  cursor: pointer;
 }

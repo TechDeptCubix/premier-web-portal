@@ -15,6 +15,9 @@ import ReturnRequest from "./components/ReturnRequest";
 import OrderPlacing from "./components/OrderPlacing";
 import OrderPlacingStatus from "./components/OrderPlacingStatus";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import ViewOrderStatistics from "./components/ViewOrderStatistics";
+import Contact from "./components/Contact";
+import Help from "./components/Help";
 
 function App() {
   return (
@@ -32,6 +35,10 @@ function App() {
       <Route path="/returnRequest" component={ReturnRequest} />
       <Route path="/orderPlacing" component={OrderPlacing} />
       <Route path="/orderPlacingStatus" component={OrderPlacingStatus} />
+      <Route path="/viewOrderStatistics" component={ViewOrderStatistics} />
+      <Route path="/help" component={Help} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/logout" component={ViewOrderStatistics} />
 
       <Footer />
     </Router>
