@@ -2,12 +2,18 @@ import React from "react";
 import "../css/SupportedItemsPopup.css";
 import ic_close from "../img/ic_close.png";
 
-function SupportedItemsPopup() {
+function SupportedItemsPopup(props) {
+  const { showHideSupportedItemsPopup } = props;
+
   return (
     <div className="SupportedItemsPopup-main-background">
       <div className="SupportedItemsPopup-container-background">
         <h4>{1632} - Supported items</h4>
-        <img src={ic_close} className="SupportedItemsPopup-close-popup-img" />
+        <img
+          src={ic_close}
+          className="SupportedItemsPopup-close-popup-img"
+          onClick={showHideSupportedItemsPopup}
+        />
         <table className="SupportedItemsPopup-table">
           <thead>
             <tr>

@@ -9,8 +9,24 @@ import "../css/CreateEnquiry.css";
 import SupportedItemsPopup from "./SupportedItemsPopup";
 import SuccessPopup from "./SuccessPopup";
 import BackgroundImage from "./BackgroundImage";
+import { useState } from "react";
 
 function CreateEnquiry() {
+  const [showSupporteditemsComponent, setshowSupporteditemsComponent] =
+    useState(false);
+
+  const [showSuccessComponent, setshowSuccessComponent] = useState(false);
+
+  const showHideSupportedItemsPopup = () => {
+    console.log("inside showHideSupportedItemsPopup");
+    setshowSupporteditemsComponent(!showSupporteditemsComponent);
+  };
+
+  const showHideSuccessPopup = () => {
+    console.log("inside showHideSuccessPopup");
+    setshowSuccessComponent(!showSuccessComponent);
+  };
+
   return (
     <div>
       <div className="CreateEnquiry-main-container">
@@ -63,7 +79,10 @@ function CreateEnquiry() {
                 <input type="text" name="quantity" />
               </td>
               <td>
-                <button className="CreateEnquiry-supersed-check-button">
+                <button
+                  className="CreateEnquiry-supersed-check-button"
+                  onClick={showHideSupportedItemsPopup}
+                >
                   Check
                 </button>
               </td>
@@ -84,12 +103,18 @@ function CreateEnquiry() {
       <div className="CreateEnquiry-enquiry-button-container">
         <button className="CreateEnquiry-button">Draft Enquiry</button>{" "}
         <span>Or </span>
-        <button className="CreateEnquiry-button">Execute Enquiry</button>
+        <button className="CreateEnquiry-button" onClick={showHideSuccessPopup}>
+          Execute Enquiry
+        </button>
       </div>
 
-      {/* <SupportedItemsPopup /> */}
+      {showSupporteditemsComponent && (
+        <SupportedItemsPopup
+          showHideSupportedItemsPopup={showHideSupportedItemsPopup}
+        />
+      )}
 
-      {/* <SuccessPopup /> */}
+      {showSuccessComponent && <SuccessPopup />}
     </div>
   );
 }

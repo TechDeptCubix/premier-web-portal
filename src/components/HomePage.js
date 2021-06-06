@@ -6,6 +6,7 @@ import ic_important_notifications from "../img/ic_important_notifications.png";
 import ic_offers from "../img/ic_offers.png";
 import ic_offer_1 from "../img/ic_offer_1.png";
 import ic_offer_2 from "../img/ic_offer_2.png";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
@@ -22,12 +23,6 @@ function Homepage() {
                   <th>Reference</th>
                   <th>View</th>
                   <th>Edit</th>
-                  <th>Edit</th>
-                  <th>Edit</th>
-                  <th>Edit</th>
-                  <th>Edit</th>
-                  <th>Edit</th>
-                  <th>Edit</th>
                 </tr>
               </thead>
               <tbody>
@@ -35,28 +30,34 @@ function Homepage() {
                   <td>1001</td>
                   <td>Verification Completed</td>
                   <td></td>
-                  <td>View</td>
-                  <td>Edit</td>
-                  <td></td>
-                  <td>View</td>
-                  <td>Edit</td>
-                  <td>ed</td>
-                  <td>wd</td>
-                  <td>w</td>
+                  <td>
+                    {" "}
+                    <Link to="/viewEnquiry">View</Link>
+                  </td>
+                  <td>
+                    {" "}
+                    <Link to="/createEnquiry">Edit</Link>
+                  </td>
                 </tr>
                 <tr>
                   <td>1002</td>
                   <td>Order Created</td>
                   <td>124867</td>
-                  <td>View</td>
+                  <td>
+                    <Link to="/viewEnquiry">View</Link>
+                  </td>
                   <td></td>
                 </tr>
                 <tr>
                   <td>1003</td>
                   <td>Verification Completed</td>
                   <td></td>
-                  <td>View</td>
-                  <td>Edit</td>
+                  <td>
+                    <Link to="/viewEnquiry">View</Link>
+                  </td>
+                  <td>
+                    <Link to="/createEnquiry">Edit</Link>
+                  </td>
                 </tr>
               </tbody>
             </table>

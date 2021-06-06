@@ -24,7 +24,8 @@ function App() {
     <Router>
       <Header />
 
-      <Route path="/" exact component={HomePage} />
+      <Route path="/" exact component={Login} />
+      <Route path="/home" exact component={HomePage} />
       <Route path="/createEnquiry" component={CreateEnquiry} />
       <Route path="/listOfEnquiry" component={ListOfEnquiry} />
       <Route path="/listOfOrder" component={ListOfOrder} />

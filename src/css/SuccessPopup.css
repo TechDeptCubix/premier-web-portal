@@ -40,8 +40,10 @@
   background-color: #bd1c1c;
   padding: 10px 20px;
   cursor: pointer;
-  margin: 20px;
   font-family: "Roboto Slab", serif;
+  width: 14vw;
   margin: 20px auto;
   display: block;
+  text-align: center;
+  text-decoration: none;
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import ic_success from "../img/ic_success.png";
 import "../css/SuccessPopup.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
-function SuccessPopup() {
+function SuccessPopup(props) {
   return (
     <div className="SuccessPopup-main-background">
       <div className="SuccessPopup-container-background">
@@ -10,9 +12,11 @@ function SuccessPopup() {
           <img src={ic_success} />
           <span>Success</span>
         </div>
-        <button className="SuccessPopup-go-back-button">
+
+        <Link to="/" className="SuccessPopup-go-back-button">
+          {" "}
           GO BACK TO DASHBOARD
-        </button>
+        </Link>
       </div>
     </div>
   );

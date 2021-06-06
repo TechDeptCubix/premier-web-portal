@@ -5,6 +5,7 @@
   margin: 40px 40px 20px 40px;
   position: relative;
   min-height: 500px;
+  overflow-x: scroll;
 }
 
 .OrderPlacing-table-container {
@@ -195,10 +196,10 @@
   height: 18px;
   position: absolute;
   top: -10px;
+  cursor: pointer;
 }
 
 .OrderPlacing-part-number-icon-span {
-  background-color: #c23c3c;
   position: relative;
 }
 

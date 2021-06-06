@@ -31,7 +31,7 @@ function Header() {
   };
 
   return (
-    <div>
+    <div className={splitLocation[1] === "" ? "hideLoginContainer" : ""}>
       <div className="Header-logo-container">
         <img src={logo} className="Header-logo" />
 
@@ -55,13 +55,13 @@ function Header() {
           </div>
         </div>
       </div>
+
       <nav className="Header-nav">
         <ul>
           <li>
             <Link
-              exact
-              to="/"
-              className={splitLocation[1] === "" ? "active" : ""}
+              to="/home"
+              className={splitLocation[1] === "home" ? "active" : ""}
             >
               Home
             </Link>
@@ -77,7 +77,12 @@ function Header() {
                 splitLocation[1] === "createEnquiry" ||
                 splitLocation[1] === "listOfEnquiry" ||
                 splitLocation[1] === "listOfOrder" ||
-                splitLocation[1] === "listOfReturn"
+                splitLocation[1] === "listOfReturn" ||
+                splitLocation[1] === "viewEnquiry" ||
+                splitLocation[1] === "orderPlacing" ||
+                splitLocation[1] === "viewOrder" ||
+                splitLocation[1] === "returnRequest" ||
+                splitLocation[1] === "viewReturnRequest"
                   ? "Header-navLink-main-menu active"
                   : "Header-navLink-main-menu"
               }
@@ -150,6 +155,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+
       {logoutPopupStatus && <LogoutPopup showLogoutPopup={showLogoutPopup} />}
     </div>
   );
