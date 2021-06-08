@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/premier-web-portal/static/css/main.01c73256.chunk.css",
-    "main.js": "/premier-web-portal/static/js/main.656c70ab.chunk.js",
-    "main.js.map": "/premier-web-portal/static/js/main.656c70ab.chunk.js.map",
+    "main.css": "/premier-web-portal/static/css/main.64dddd49.chunk.css",
+    "main.js": "/premier-web-portal/static/js/main.de36f933.chunk.js",
+    "main.js.map": "/premier-web-portal/static/js/main.de36f933.chunk.js.map",
     "runtime-main.js": "/premier-web-portal/static/js/runtime-main.1b71e0fa.js",
     "runtime-main.js.map": "/premier-web-portal/static/js/runtime-main.1b71e0fa.js.map",
-    "static/js/2.220e149a.chunk.js": "/premier-web-portal/static/js/2.220e149a.chunk.js",
-    "static/js/2.220e149a.chunk.js.map": "/premier-web-portal/static/js/2.220e149a.chunk.js.map",
+    "static/js/2.e2a0fa21.chunk.js": "/premier-web-portal/static/js/2.e2a0fa21.chunk.js",
+    "static/js/2.e2a0fa21.chunk.js.map": "/premier-web-portal/static/js/2.e2a0fa21.chunk.js.map",
     "static/js/3.329778f9.chunk.js": "/premier-web-portal/static/js/3.329778f9.chunk.js",
     "static/js/3.329778f9.chunk.js.map": "/premier-web-portal/static/js/3.329778f9.chunk.js.map",
     "index.html": "/premier-web-portal/index.html",
-    "static/css/main.01c73256.chunk.css.map": "/premier-web-portal/static/css/main.01c73256.chunk.css.map",
-    "static/js/2.220e149a.chunk.js.LICENSE.txt": "/premier-web-portal/static/js/2.220e149a.chunk.js.LICENSE.txt",
+    "static/css/main.64dddd49.chunk.css.map": "/premier-web-portal/static/css/main.64dddd49.chunk.css.map",
+    "static/js/2.e2a0fa21.chunk.js.LICENSE.txt": "/premier-web-portal/static/js/2.e2a0fa21.chunk.js.LICENSE.txt",
     "static/media/backgroundImageLogin.c4a1c172.png": "/premier-web-portal/static/media/backgroundImageLogin.c4a1c172.png",
     "static/media/HomePage.css": "/premier-web-portal/static/media/bg_notifications_header.2a25a197.png",
     "static/media/login_bg_image-2.1715d252.jpg": "/premier-web-portal/static/media/login_bg_image-2.1715d252.jpg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1b71e0fa.js",
-    "static/js/2.220e149a.chunk.js",
-    "static/css/main.01c73256.chunk.css",
-    "static/js/main.656c70ab.chunk.js"
+    "static/js/2.e2a0fa21.chunk.js",
+    "static/css/main.64dddd49.chunk.css",
+    "static/js/main.de36f933.chunk.js"
   ]
 }
