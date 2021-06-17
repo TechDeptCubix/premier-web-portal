@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.css": "/premier-web-portal/static/css/main.1f44b120.chunk.css",
-    "main.js": "/premier-web-portal/static/js/main.b8621b9d.chunk.js",
-    "main.js.map": "/premier-web-portal/static/js/main.b8621b9d.chunk.js.map",
-    "runtime-main.js": "/premier-web-portal/static/js/runtime-main.1b71e0fa.js",
-    "runtime-main.js.map": "/premier-web-portal/static/js/runtime-main.1b71e0fa.js.map",
-    "static/js/2.e2a0fa21.chunk.js": "/premier-web-portal/static/js/2.e2a0fa21.chunk.js",
-    "static/js/2.e2a0fa21.chunk.js.map": "/premier-web-portal/static/js/2.e2a0fa21.chunk.js.map",
-    "static/js/3.329778f9.chunk.js": "/premier-web-portal/static/js/3.329778f9.chunk.js",
-    "static/js/3.329778f9.chunk.js.map": "/premier-web-portal/static/js/3.329778f9.chunk.js.map",
+    "main.css": "/premier-web-portal/static/css/main.3ed92fd1.chunk.css",
+    "main.js": "/premier-web-portal/static/js/main.1e19ec14.chunk.js",
+    "runtime-main.js": "/premier-web-portal/static/js/runtime-main.d5c41d8b.js",
+    "static/css/2.ce1fb89c.chunk.css": "/premier-web-portal/static/css/2.ce1fb89c.chunk.css",
+    "static/js/2.fe702469.chunk.js": "/premier-web-portal/static/js/2.fe702469.chunk.js",
+    "static/js/3.36f3a6ba.chunk.js": "/premier-web-portal/static/js/3.36f3a6ba.chunk.js",
     "index.html": "/premier-web-portal/index.html",
-    "static/css/main.1f44b120.chunk.css.map": "/premier-web-portal/static/css/main.1f44b120.chunk.css.map",
-    "static/js/2.e2a0fa21.chunk.js.LICENSE.txt": "/premier-web-portal/static/js/2.e2a0fa21.chunk.js.LICENSE.txt",
+    "static/js/2.fe702469.chunk.js.LICENSE.txt": "/premier-web-portal/static/js/2.fe702469.chunk.js.LICENSE.txt",
     "static/media/backgroundImageLogin.c4a1c172.png": "/premier-web-portal/static/media/backgroundImageLogin.c4a1c172.png",
     "static/media/HomePage.css": "/premier-web-portal/static/media/bg_notifications_header.2a25a197.png",
     "static/media/login_bg_image-2.1715d252.jpg": "/premier-web-portal/static/media/login_bg_image-2.1715d252.jpg",
-    "static/media/logo.6ce24c58.svg": "/premier-web-portal/static/media/logo.6ce24c58.svg",
     "static/media/part_1.a1bbfcd4.png": "/premier-web-portal/static/media/part_1.a1bbfcd4.png",
     "static/media/part_2.92497d55.png": "/premier-web-portal/static/media/part_2.92497d55.png",
     "static/media/part_3.67e246b7.png": "/premier-web-portal/static/media/part_3.67e246b7.png",
@@ -27,9 +22,10 @@
     "static/media/premier_logo.430cd733.png": "/premier-web-portal/static/media/premier_logo.430cd733.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b71e0fa.js",
-    "static/js/2.e2a0fa21.chunk.js",
-    "static/css/main.1f44b120.chunk.css",
-    "static/js/main.b8621b9d.chunk.js"
+    "static/js/runtime-main.d5c41d8b.js",
+    "static/css/2.ce1fb89c.chunk.css",
+    "static/js/2.fe702469.chunk.js",
+    "static/css/main.3ed92fd1.chunk.css",
+    "static/js/main.1e19ec14.chunk.js"
   ]
 }
