@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.ViewEnquiryAfterQuotationGeneration-main-container {
+  border: 3px #ccc solid;
+  margin: 40px 40px 40px 40px;
+  position: relative;
+  min-height: 750px;
+}
+
+.ViewEnquiryAfterQuotationGeneration-table-container {
+  border: 1px black solid;
+  margin: 40px 40px 40px 40px;
+}
+
+.ViewEnquiryAfterQuotationGeneration-main-container h4 {
+  margin-left: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+.ViewEnquiryAfterQuotationGeneration-divider {
+  border-top: 1px solid #000000;
+}
+
+.ViewEnquiryAfterQuotationGeneration-table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0px !important;
+}
+.ViewEnquiryAfterQuotationGeneration-table thead {
+  background-color: #e5e5e5;
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  vertical-align: text-top;
+  outline: 1px #ccc solid;
+}
+
+.ViewEnquiryAfterQuotationGeneration-table thead th {
+  padding: 15px 15px;
+}
+.ViewEnquiryAfterQuotationGeneration-table tbody td {
+  padding: 10px 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #000000;
+  border-bottom: 1px solid #ccc;
+}
+
+.ViewEnquiryAfterQuotationGeneration-left-container {
+  width: 50%;
+}
+
+.ViewEnquiryAfterQuotationGeneration-right-container {
+  width: 50%;
+}
+
+.ViewEnquiryAfterQuotationGeneration-inner-container {
+  display: flex;
+}
+
+.ViewEnquiryAfterQuotationGeneration-label-value-container label {
+  width: 160px;
+  font-family: "Roboto Slab", serif;
+  display: inline-block;
+  padding: 10px 0px 10px 20px;
+}
+
+.ViewEnquiryAfterQuotationGeneration-label-value-colon {
+  margin-right: 20px;
+}
+
+.ViewEnquiryAfterQuotationGeneration-label-value {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+
+.ViewEnquiryAfterQuotationGeneration-excel-button {
+  margin-left: auto;
+  padding: 4px 20px;
+  border: none;
+  background-color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  display: block;
+}
+
+.ViewEnquiryAfterQuotationGeneration-excel-button-container {
+  padding: 0px 20px 15px 0px;
+  text-align: right;
+}
+
+.ViewEnquiryAfterQuotationGeneration-excel-button-container button span {
+  margin-left: 5px;
+}
+
+.ViewEnquiryAfterQuotationGeneration-excel-button-container button > img,
+.ViewEnquiryAfterQuotationGeneration-excel-button-container button > span {
+  vertical-align: middle;
+}
+
+.ViewEnquiryAfterQuotationGeneration-excel-button-container button:hover {
+  background-color: #f8f8f8;
+  box-shadow: 0px 15px 20px rgba(200, 200, 200, 0.9);
+  transform: translateY(-5px);
+}
+
+.ViewEnquiryAfterQuotationGeneration-head-cta{
+    display: flex;
+    align-items: center;
+}
+.ViewEnquiryAfterQuotationGeneration-head-cta-button{
+    margin-left: 20px;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 5px 20px;
+    background-color: #c23c3c;
+    /* font-family: "Roboto Slab", serif; */
+    font-family: "Poppins", sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.ViewEnquiryAfterQuotation_qty{
+  padding: 5px;
+  font-size: 16px;
+}
+
+.ViewEnquiryAfterQuotation_total_container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+.ViewEnquiryAfterQuotation_total_container_sub_total{
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.ViewEnquiryAfterQuotation_total_container_sub_total_label{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.ViewEnquiryAfterQuotation_total_container_vat_label{
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.ViewEnquiryAfterQuotation_total_container_vat_value{
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+
+.ViewEnquiryAfterQuotation_img_remove_container{
+  display: flex;
+  align-items: center;
+  background-color: #e7e7e7;
+  padding: 5px;
+}
+
+.ViewEnquiryAfterQuotation_img_remove{
+  width: 28px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-right: 10px;
+}
